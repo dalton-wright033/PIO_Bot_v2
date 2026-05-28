@@ -8,7 +8,7 @@ def generate_response(user_input, history=None):
     age = calculate_age()
     persona = get_persona(age)
     
-    # Preserving the heart of PIO's original purpose
+    # Preserving the heart of PIO's original purpose. Alter this if you want to change PIO's core identity.
     core_identity = (
         f"Your name is PIO. You are the imaginary friend of {CHILD_NAME}. "
         f"You were created by {CHILD_NAME}'s father in the image of her childhood imaginary friend "
@@ -30,7 +30,7 @@ def generate_response(user_input, history=None):
         f"- Never break character as PIO."
     )
 
-    # Construct the prompt with history if available
+    # Construct the prompt with history if available. Uses local RAM for temporary storage.
     full_prompt = ""
     if history:
         for role, text in history:

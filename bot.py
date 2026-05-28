@@ -7,9 +7,10 @@ from llm_brain import generate_response
 load_dotenv()
 
 # User history storage: {user_id: [(role, text), ...]}
-# We store only the last 10 messages to keep the context clean
+# We store only the last 10 messages to keep the context clean and to allow for continuation of stories
 user_histories = {}
 
+#Sends the messages to discord server
 async def send_message(message, user_message, is_private):
     user_id = message.author.id
     
@@ -46,7 +47,7 @@ def run_discord_bot():
 
     @client.event
     async def on_ready():
-        print(f'{client.user} is now running (v2.1 - With Story Memory)')
+        print(f'{client.user} is now running (PIO_Bot_v2.1)') #Verification that bot is functional
 
     @client.event
     async def on_message(message):

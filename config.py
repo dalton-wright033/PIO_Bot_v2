@@ -9,12 +9,14 @@ CHILD_NAME = os.getenv('CHILD_NAME')
 CHILD_BIRTHDAY_STR = os.getenv('CHILD_BIRTHDAY')
 OLLAMA_MODEL = os.getenv('OLLAMA_MODEL')
 
+#Allows LLM to mature with child's age and to keep within age appropriate safeguards
 def calculate_age():
     birthday = datetime.strptime(CHILD_BIRTHDAY_STR, '%Y-%m-%d')
     today = datetime.today()
     age = today.year - birthday.year - ((today.month, today.day) < (birthday.month, birthday.day))
     return age
 
+#Criteria given to LLM for age groups. Alter this for different ambiance based off your vison for PIO
 def get_persona(age):
     if age <= 6:
         return "The Magical Phase: Use very simple language, emphasize imagination and animals, with clear happy morals. Keep stories rhythmic and short."

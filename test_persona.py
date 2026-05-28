@@ -1,3 +1,5 @@
+## This is just a test file used to ensure age appropriate safeguards.
+
 import requests
 import json
 from config import OLLAMA_MODEL, CHILD_NAME, get_persona
