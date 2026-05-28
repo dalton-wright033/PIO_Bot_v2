@@ -28,7 +28,11 @@ Again, it is intended to run on your personal computer/server. No data is given 
 
 - Use this video to learn how to set up Ollama locally: https://youtu.be/UtSSMs6ObqY?si=RlXsm0IgpK5QPpZY
 
-- I used gemma4:31b-cloud for mine as the cloud version of Gemma 4 was much faster with the response since I was using an API to comunicate with Discord.
+- I used gemma2:9b for mine as which is an older version of Gemma, but still fantastic for this use case.
+
+- A LLm of your choice will need to be downloaded after Ollama installation using ```ollama run [LLM_Model]```.
+
+- Add this LLM model name to your .env file using the OLLAMA_MODEL variable
 
 ## How to use PIO_Bot_v2
 
