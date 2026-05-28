@@ -16,13 +16,19 @@ This bot is inteded for LOCAL USE ONLY, and precautions have been taken to ensur
 
 Again, it is intended to run on your personal computer/server. No data is given to me or any other entity to my knowledge. Please give personal information with discretion.
 
---
+---
 
 ## Improvements from original PIO
 
 - Removal of previously hardcoded stories from version 1
 - Integration with Ollama LLM for more dynaic story telling 
 - Short term memory of conversation added so the story can continue even if it reaches Discord's 2000 character limit
+
+## Setting up Ollama locally
+
+- Use this video to learn how to set up Ollama locally: https://youtu.be/UtSSMs6ObqY?si=RlXsm0IgpK5QPpZY
+
+- I used gemma4:31b-cloud for mine as the cloud version of Gemma 4 was much faster with the response since I was using an API to comunicate with Discord.
 
 ## How to use PIO_Bot_v2
 
