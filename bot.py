@@ -40,6 +40,7 @@ async def send_message(message, user_message, is_private):
     except Exception as e:
         print(f"Error sending message: {e}")
 
+# Starts discord server connection
 def run_discord_bot():
     intents = discord.Intents.default()
     intents.message_content = True
