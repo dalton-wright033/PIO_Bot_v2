@@ -1,0 +1,140 @@
+[2026-06-02 09:43:42] [INFO    ] discord.client: logging in using static token
+[2026-06-02 09:43:44] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 66a566f5410cce0e222b9f6a56e54ee4).
+[2026-06-02 10:31:08] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 10:31:39] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: a972b75c4bd0302f3f77465402c76c35).
+[2026-06-02 12:02:45] [ERROR   ] discord.client: Attempting a reconnect in 1.41s
+Traceback (most recent call last):
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 1561, in _create_direct_connection
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 1171, in _resolve_host
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 1202, in _resolve_host_with_throttle
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/resolver.py", line 40, in resolve
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 867, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/client.py", line 728, in connect
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 392, in from_client
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/http.py", line 571, in ws_connect
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/client.py", line 1244, in _ws_connect
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/client.py", line 856, in _request
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/client.py", line 810, in _connect_and_send_request
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 655, in connect
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 1232, in _create_connection
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/connector.py", line 1567, in _create_direct_connection
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [nodename nor servname provided, or not known]
+[2026-06-02 12:02:48] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 12:19:29] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 12:19:59] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 44d09ca2dcf1790abe79415164ce2af7).
+[2026-06-02 12:22:15] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 44d09ca2dcf1790abe79415164ce2af7.
+[2026-06-02 12:41:01] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 12:41:32] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 919ddc30e693b8473478a7f1fc9df476).
+[2026-06-02 13:01:30] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 13:02:01] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 9842ac1a9f71efeeab7cdb104675f28a).
+[2026-06-02 13:21:44] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 13:22:15] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6b624e42f25df67550133085efd48118).
+[2026-06-02 14:17:26] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 14:17:40] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2bb5b7cae06030e05e25f39340c5466a).
+[2026-06-02 15:17:02] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 15:34:19] [ERROR   ] discord.client: Attempting a reconnect in 3.99s
+Traceback (most recent call last):
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/client.py", line 728, in connect
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 422, in from_client
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 490, in identify
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 681, in send_as_json
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 677, in send
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/client_ws.py", line 289, in send_str
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/_websocket/writer.py", line 82, in send_frame
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/_websocket/writer.py", line 150, in _write_websocket_frame
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+[2026-06-02 15:50:24] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 15:50:32] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 5994c33966a4ef2708a4cccaad9b62a7).
+[2026-06-02 17:38:52] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 17:54:34] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 18:04:55] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 18:21:15] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+Unclosed connection
+client_connection: Connection<ConnectionKey(host='gateway-us-east1-b.discord.gg', port=443, is_ssl=True, ssl=True, proxy=None, proxy_auth=None, proxy_headers_hash=None)>
+[2026-06-02 18:38:24] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 18:42:30] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 18:42:42] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: da204509618b85edf31043a6e49e8b34).
+[2026-06-02 18:59:47] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 19:05:54] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 19:06:07] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: dc60504fa04fdea494cf328c1808fb30).
+[2026-06-02 20:38:47] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 20:38:54] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: bf1b7cad89496bc6994a39a00171139d).
+[2026-06-02 21:56:55] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 22:08:55] [ERROR   ] discord.client: Attempting a reconnect in 4.15s
+Traceback (most recent call last):
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/client.py", line 728, in connect
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/tasks.py", line 479, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 422, in from_client
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 490, in identify
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 681, in send_as_json
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/discord/gateway.py", line 677, in send
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/client_ws.py", line 289, in send_str
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/_websocket/writer.py", line 82, in send_frame
+  File "/Users/neo/PIO_Bot_v2/venv/lib/python3.11/site-packages/aiohttp/_websocket/writer.py", line 150, in _write_websocket_frame
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+[2026-06-02 22:24:29] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 22:26:45] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-02 22:26:52] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 08c77ead784e8644c4b697b980fabc64).
+[2026-06-03 01:44:08] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 02:01:03] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 02:16:24] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 02:31:44] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 02:31:52] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 70ca7f1765a3110cd9827b69f74fd0cf).
+[2026-06-03 04:16:31] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 04:33:08] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 04:33:14] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 9f39ba939b8f2f8f1c04bbd8c40be8b2).
+[2026-06-03 06:34:02] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 06:34:10] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e589d2f09ba1317c83aa6713b2133076).
+[2026-06-03 08:24:34] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 08:36:02] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 08:53:49] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 09:10:42] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 09:27:51] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 09:37:03] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 09:54:09] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 10:10:53] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 10:26:26] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 10:38:03] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 10:55:09] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 11:08:30] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 11:25:10] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 11:39:02] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 11:54:46] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 12:09:49] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 12:26:48] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 12:26:56] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: fb1f42280f92b10fd0b1182973018ba5).
+[2026-06-03 13:57:18] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 14:15:10] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 14:30:44] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 14:42:03] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 14:57:56] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 15:13:25] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 15:30:52] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 15:31:05] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: c5d720e7581b08f02d99d9f036e2e9c4).
+[2026-06-03 15:44:06] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 15:44:11] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: bbd42a443a652e0b5bbf576394a57085).
+[2026-06-03 17:15:16] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 17:15:22] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 54379453451bf711429ea46e1faa0c6c).
+[2026-06-03 17:22:51] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2026-06-03 17:22:56] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 934c5fef3f55dfd75a297055c419358e).

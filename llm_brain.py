@@ -31,7 +31,7 @@ def generate_response(user_input, history=None):
         f"- Never break character as PIO."
     )
 
-    # Construct the prompt with history if available. Uses local RAM for temporary storage.
+    # Construct the prompt with history if available. Uses local RAM for temporary storage. Memory retention to improve UX.
     full_prompt = ""
     if history:
         for role, text in history:

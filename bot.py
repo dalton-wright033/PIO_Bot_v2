@@ -10,7 +10,7 @@ load_dotenv()
 # We store only the last 10 messages to keep the context clean and to allow for continuation of stories
 user_histories = {}
 
-#Sends the messages to discord server
+# Sends the messages to discord server
 async def send_message(message, user_message, is_private):
     user_id = message.author.id
     
