@@ -30,7 +30,7 @@ Again, it is intended to run on your personal computer/server. No data is given 
 
 - I used gemma4:31b-cloud for mine. I tried using Gemma2, which is an older version of Gemma, and is still fantastic for this use case, but I found it not as verbose as the Gemma4 model. Depending on the hardware you're using or the amount of context you want given (which can also be adjusted with manual configuration), choose the model to your liking.
 
-- A LLm of your choice will need to be downloaded after Ollama installation using ```ollama run [LLM_Model]```.
+- A LLM of your choice will need to be downloaded after Ollama installation using ```ollama run [LLM_Model]```.
 
 - Add this LLM model name to your .env file using the OLLAMA_MODEL variable
 
