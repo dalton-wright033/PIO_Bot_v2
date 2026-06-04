@@ -47,6 +47,9 @@ Again, it is intended to run on your personal computer/server. No data is given 
 
 ## Other notes
 
+- We have tested and improved upon Pio's safety in conversations with children. We still recommend parental supervison for two reasons
+    1. LLMs are still in an infantile stage of development and should be used with caution.
+    2. So parents can also have fun reading along to Pio's stories with their children and have some quality time together!
 - I have some custom prompts that tell Pio's purpose that serve as a note to my daughter. Pio will state it's purpose when asked who it is. If you wish to remove this, alter the core_identity variable in the generate_response() function in the llm_brain.py file. Leaving or removing this prompt will not affect the PIO's function.
 
 - I hope this inspires others to make projects for the people they love the most! :D
