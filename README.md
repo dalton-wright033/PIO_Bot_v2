@@ -36,6 +36,10 @@ Again, it is intended to run on your personal computer/server. No data is given 
 
 ## How to use PIO_Bot_v2
 
+- Please be sure to install the following dependencies into your python environment before attempting to launch PIO using the command ```pip install [dependency_nam]```. Otherwise you may get errors:
+    - discord.py
+    - requests
+    - dotenv
 - Use template from the example.env file to fill in user (child or self) info for Ollama to generate appropriate stories**
 - ** See Disclaimer section above for more information on data privacy.
 - If using Discord as medium for text generation, you will need to follow the steps on Discord to create a channel for the bot to access and how to create the bot
