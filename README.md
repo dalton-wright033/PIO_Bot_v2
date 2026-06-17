@@ -36,7 +36,7 @@ Again, it is intended to run on your personal computer/server. No data is given 
 
 ## How to use PIO_Bot_v2
 
-- Use template from the eample .env file to fill in user (child or self) info for Ollama to generate appropriate stories**
+- Use template from the sample.env file to fill in user (child or self) info for Ollama to generate appropriate stories**
 - ** See Disclaimer section above for more information on data privacy.
 - If using Discord as medium for text generation, you will need to follow the steps on Discord to create a channel for the bot to access and how to create the bot
     - How to make a discord bot: https://discordpy.readthedocs.io/en/latest/discord.html
